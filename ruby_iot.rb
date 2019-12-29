@@ -32,7 +32,7 @@ end
 
 
 # ------- APP -------: 
-binding.pry
+# binding.pry
 
 app = AppInterface.new(ENV["PARTICLE_ACCESS_TOKEN"], "my_spark_1")
 app.setup 
